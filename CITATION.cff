@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "aia-prefill-canada: a reproducible corpus of Canada's published Algorithmic Impact Assessments, score reproduction and a pre-specified evaluation protocol"
+type: software
+authors:
+  - given-names: Jonathas
+    family-names: Wilbur Ferreira
+    affiliation: "Independent Researcher, Ottawa, Canada"
+license:
+  - MIT
+  - CC-BY-4.0
+  - OGL-Canada-2.0
+version: "1.0.0"
+date-released: "2026-11-05"
+repository-code: "https://github.com/jhowilbur/aia-prefill-canada"
+keywords:
+  - algorithmic impact assessment
+  - automated decision-making
+  - AI governance
+  - Directive on Automated Decision-Making
+  - NIST AI RMF
+  - OMB M-25-21
+  - reproducibility

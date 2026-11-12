@@ -1,0 +1,42 @@
+{
+  "title": "aia-prefill-canada: a reproducible corpus of Canada's published Algorithmic Impact Assessments, score reproduction and a pre-specified evaluation protocol",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Wilbur Ferreira, Jonathas",
+      "affiliation": "Independent Researcher, Ottawa, Canada"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "algorithmic impact assessment",
+    "automated decision-making",
+    "AI governance",
+    "Directive on Automated Decision-Making",
+    "NIST AI RMF",
+    "OMB M-25-21",
+    "reproducibility"
+  ],
+  "description": "Licences: code MIT; report, crosswalk and docs CC BY 4.0; derived AIA tables contain information licensed under the Open Government Licence - Canada; questionnaire MIT (c) 2019 Government of Canada (see NOTICE.md). Code, derived data and technical report. Builds a corpus of the 39 Algorithmic Impact Assessments published on open.canada.ca, reproduces the official tool's raw score and impact level for 31 of 32 machine-readable assessments with version-aware scoring, tests model inputs for level leakage, maps the AIA questionnaire to NIST AI RMF 1.0 and OMB M-25-21, and pre-specifies an evaluation protocol for assisted pre-filling. No model results are reported. Only derived tables are redistributed; source files are re-downloaded from the Government of Canada under the Open Government Licence - Canada.",
+  "version": "1.0.0",
+  "language": "eng",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/jhowilbur/aia-prefill-canada/tree/v1.0.0",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/canada-ca/aia-eia-js/tree/b62573389db4946b4d70b7fa62c4ca8d9990dba3",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.6028/NIST.AI.100-1",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "No model has been trained or evaluated, and no accuracy is reported. The evaluation protocol (docs/eval-plan.md, docs/lockbox.sha256) was frozen on 2026-11-05, before any model output existed."
+}

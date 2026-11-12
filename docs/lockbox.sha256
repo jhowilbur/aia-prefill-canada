@@ -1,0 +1,11 @@
+# Lock-box (eval-plan §2.4): the most recent ceil(0.2*32)=7 JSON AIAs by dataset date.
+# Created 2026-11-05, before any teacher, student or baseline output existed.
+# sha256 of each AIA's canonical label line (sorted-key JSON of its row in data/aia_answers.jsonl), then aia_id.
+4c1c4e3e7c3fe52edf340e12402b74ae6958268d48aec67525b770f12625000d  1257e5c1-243f-4ab8-be42-e7433c8ebe70
+d7839ea7c76f9be5533a3b35b01d91c6cecd4a448bf77a9289577d03a7047b62  d5b89acc-5f2a-435d-b8f5-18002ba24c2a
+46588932d007094e4efcd7211fd64922ec7a4f2b39f4aed3928aea4bbd9bace2  92d7bc61-3724-44cd-9917-e2bf75023d4e
+43359553118f1e3a43fd9331f3ae8a98b33eea770befbbb448e9f7e4833db9cd  94d9dd91-803a-458c-a381-db6a22c9571a
+abff25d770eeffc5a0398575a6bd3b21b754fccd0b4961261ff41e86cad18027  380f8da2-a18e-4747-a29f-7775450b7283
+c74a8d4d11302ab303e34dc06a65b7dbcd324ce29702784dfcb9146b26821861  452e10be-383d-4d7a-9c7d-6484dc366a4a
+7460d53f1448d707fbadc5ce49ceb66369ad23625126c6ff37c20648795fccda  6ca819ed-dfde-4c4e-ac6b-831310825b03
+# sha256 of the 7 hash lines above, joined with \n and no final newline: 31d8339e914598e0eafde871fc66a19cd5904a391742be36f4f1b285cc4bef7f

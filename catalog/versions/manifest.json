@@ -1,0 +1,52 @@
+{
+  "v0.9": {
+    "survey_commit": "ed7c556",
+    "survey_commit_date": "2021-11-22T17:26:22-05:00",
+    "bump_commit": "c33b74d",
+    "next_bump_commit": "8cc9b5f",
+    "max_raw_impact_score": 107,
+    "max_mitigation_score": 90,
+    "scored_questions": 101,
+    "note": ""
+  },
+  "v0.9.1": {
+    "survey_commit": "fd9acb3",
+    "survey_commit_date": "2022-03-01T07:23:27-05:00",
+    "bump_commit": "8cc9b5f",
+    "next_bump_commit": "aca5ce7",
+    "max_raw_impact_score": 107,
+    "max_mitigation_score": 90,
+    "scored_questions": 101,
+    "note": ""
+  },
+  "v0.10.0": {
+    "survey_commit": "9284661",
+    "survey_commit_date": "2023-04-09T11:09:29-04:00",
+    "bump_commit": "aca5ce7",
+    "next_bump_commit": "4489fa9",
+    "max_raw_impact_score": 126,
+    "max_mitigation_score": 92,
+    "scored_questions": 109,
+    "note": ""
+  },
+  "v1.0.0": {
+    "survey_commit": "dab75e2",
+    "survey_commit_date": "2025-09-08T23:17:07Z",
+    "bump_commit": "4489fa9",
+    "next_bump_commit": "b900dc7",
+    "max_raw_impact_score": 167,
+    "max_mitigation_score": 154,
+    "scored_questions": 160,
+    "note": "Ambiguous: the 2025 questionnaire rewrite (issues #1127-#1153) was made under the v1.0.0 string, so a v1.0.0 export can come from the Dec 2024 survey (= v0.10.0 final) or the Sept 2025 one exported here. No published AIA uses v1.0.0."
+  },
+  "v1.0.1": {
+    "survey_commit": "d4ce64c",
+    "survey_commit_date": "2026-09-24T11:04:12-04:00",
+    "bump_commit": "b900dc7",
+    "next_bump_commit": null,
+    "max_raw_impact_score": 167,
+    "max_mitigation_score": 154,
+    "scored_questions": 160,
+    "note": ""
+  }
+}

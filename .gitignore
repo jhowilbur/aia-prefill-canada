@@ -1,0 +1,11 @@
+# Re-downloaded Government of Canada files and everything built from them stay local.
+data/raw/
+data/interim/
+data/truth/
+vendor/
+__pycache__/
+*.pyc
+reports/pii_redaction.md
+.venv/
+.DS_Store
+*.egg-info/
