@@ -5,7 +5,7 @@ type: software
 authors:
   - given-names: Jonathas
     family-names: Wilbur Ferreira
-    affiliation: "Independent Researcher, Ottawa, Canada"
+    affiliation: "Independent Researcher"
 license:
   - MIT
   - CC-BY-4.0

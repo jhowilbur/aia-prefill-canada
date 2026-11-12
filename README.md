@@ -2,7 +2,7 @@
 
 A reproducible corpus of the **Algorithmic Impact Assessments (AIAs)** that Canadian federal institutions have published on open.canada.ca. The repository also contains a scorer that reproduces the official tool's results, a leakage analysis of candidate model inputs, a crosswalk to the **NIST AI RMF 1.0** and **OMB M-25-21**, and a **pre-specified protocol** for testing whether a model can help pre-fill an AIA from a system's documentation.
 
-Author: Jonathas Wilbur Ferreira, Independent Researcher, Ottawa, Canada. Technical report: [`report/`](report/).
+Author: Jonathas Wilbur Ferreira, Independent Researcher. Technical report: [`report/`](report/).
 
 > **Status (v1.0.0, 2026-11-05).** This release covers data, scoring and protocol only. **No model has been trained or evaluated, and no accuracy is reported.** The evaluation protocol in `docs/eval-plan.md` was frozen before any model output existed.
 

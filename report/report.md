@@ -3,7 +3,7 @@ title: "Pre-filling Canada's Algorithmic Impact Assessment"
 subtitle: "A corpus of 39 published assessments, version-aware score reproduction, and a pre-specified evaluation protocol"
 author:
   - name: Jonathas Wilbur Ferreira
-    affiliation: Independent Researcher, Ottawa, Canada
+    affiliation: Independent Researcher
 date: 2026-11-05
 version: "Technical report, v1.0.0"
 abstract: |
