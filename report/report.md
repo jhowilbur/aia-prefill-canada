@@ -4,7 +4,7 @@ subtitle: "A corpus of 39 published assessments, version-aware score reproductio
 author:
   - name: Jonathas Wilbur Ferreira
     affiliation: Independent Researcher
-date: 2026-11-05
+date: 2026-11-19
 version: "Technical report, v1.0.0"
 abstract: |
   Canada's Directive on Automated Decision-Making requires federal institutions to complete, approve and publish an

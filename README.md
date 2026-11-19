@@ -4,7 +4,7 @@ A reproducible corpus of the **Algorithmic Impact Assessments (AIAs)** that Cana
 
 Author: Jonathas Wilbur Ferreira, Independent Researcher. Technical report: [`report/`](report/).
 
-> **Status (v1.0.0, 2026-11-05).** This release covers data, scoring and protocol only. **No model has been trained or evaluated, and no accuracy is reported.** The evaluation protocol in `docs/eval-plan.md` was frozen before any model output existed.
+> **Status (v1.0.1, released 2026-11-19; evaluation protocol frozen by the author 2026-11-05).** This release covers data, scoring and protocol only. **No model has been trained or evaluated, and no accuracy is reported.** The evaluation protocol in `docs/eval-plan.md` was frozen before any model output existed.
 
 ## What is in it
 
