@@ -11,6 +11,7 @@ license:
   - CC-BY-4.0
   - OGL-Canada-2.0
 version: "1.0.1"
+doi: "10.5281/zenodo.24373958"
 date-released: "2026-11-19"
 repository-code: "https://github.com/jhowilbur/aia-prefill-canada"
 keywords:

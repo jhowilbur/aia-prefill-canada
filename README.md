@@ -1,5 +1,7 @@
 # aia-prefill-canada
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24373958.svg)](https://doi.org/10.5281/zenodo.24373958)
+
 A reproducible corpus of the **Algorithmic Impact Assessments (AIAs)** that Canadian federal institutions have published on open.canada.ca. The repository also contains a scorer that reproduces the official tool's results, a leakage analysis of candidate model inputs, a crosswalk to the **NIST AI RMF 1.0** and **OMB M-25-21**, and a **pre-specified protocol** for testing whether a model can help pre-fill an AIA from a system's documentation.
 
 Author: Jonathas Wilbur Ferreira, Independent Researcher. Technical report: [`report/`](report/).
@@ -64,4 +66,4 @@ Code: MIT. Report, crosswalk and docs: CC BY 4.0. Derived AIA tables: contain in
 
 ## Citation
 
-See [`CITATION.cff`](CITATION.cff). The DOI will be added on publication.
+See [`CITATION.cff`](CITATION.cff). Archived on Zenodo: DOI [10.5281/zenodo.24373958](https://doi.org/10.5281/zenodo.24373958) (all versions); v1.0.1 is [10.5281/zenodo.24373959](https://doi.org/10.5281/zenodo.24373959).
