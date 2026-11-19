@@ -645,8 +645,8 @@ Each row cites AIA question ids and short exact quotes from both U.S. documents,
 as strong (the same obligation), partial (the same topic) or none. Against NIST AI RMF 1.0 there are
 5 strong, 35 partial and 17 none; against M-25-21 there are 2 strong, 32 partial and 23 none. The six
 rows with a strong match are purpose and benefit, scope confinement, environmental sustainability,
-performance across identity factors, monitoring (all NIST) and open-data disclosure (OMB). An
-independent check of 30 rows led to corrections in seven rows before release. The mapping also shows differences in kind. M-25-21 does not grade risk by
+performance across identity factors, monitoring (all NIST) and open-data disclosure (OMB). A
+second-pass check of 30 rows led to corrections in seven rows before release. The mapping also shows differences in kind. M-25-21 does not grade risk by
 degree of automation, while the AIA scores full automation as riskier; whether the memo's practices
 apply at all depends on the AI output being a "principal basis" for the decision. M-25-21 has no counterpart for notice and explanations to affected people, and
 it leaves the privacy, security and confidentiality of training and input data out of its

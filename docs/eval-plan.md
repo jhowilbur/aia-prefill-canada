@@ -1,7 +1,7 @@
 # Evaluation plan (pre-specified) — local AIA pre-fill
 
-> Release note: this is the frozen protocol as written. References to `docs/audit-*.md` point to internal
-> review notes that are not part of this release. TRL wording follows the standard Technology Readiness
+> Release note: this is the frozen protocol as written. References to `docs/audit-*.md` and `docs/eval-plan-v1.0.md` point to
+> internal review notes and an earlier draft that are not part of this release. TRL wording follows the standard Technology Readiness
 > Level scale; no gate has been run and no TRL is claimed.
 
 > **Frozen 2026-11-05 (v1.1b) by the author before any model output was seen.** The teacher pilot and hand-labelling have not been run.
@@ -33,7 +33,7 @@ Systems compared (all see the same retrieved chunks unless stated):
 |---|---|---|
 | S | Student: GLiNER2.5-small fine-tuned on teacher labels + top-k retrieved chunks | the thing we want to prove |
 | T | Teacher: Claude Opus labels, same chunks | upper reference, not ground truth |
-| T-full | Teacher with the whole document (optional, credits permitting) | ceiling of retrieval loss |
+| T-full | Teacher with the whole document (optional, resources permitting) | ceiling of retrieval loss |
 | B-maj | Majority answer per question, learned on training folds only; confidence = training frequency | strong for skewed questions |
 | B-bm25 | BM25 retrieval (query = question + choice text) + rule: choice with the highest BM25 score in top-k chunks; confidence = softmax of score margin; abstain below a threshold tuned on inner folds | "no ML" baseline |
 | B-abst | Always abstain | sanity floor for the level metric |
@@ -424,13 +424,13 @@ Level agreement (one per AIA) is not gated in v1.1. For reference, "always level
 
 ## Changelog v1.0 → v1.1 → v1.1b (2026-11-05, before any result)
 
-Made by the plan's author after the independent audit `docs/audit-phase0.md` (round 1) found
+Made by the plan's author after the internal review `docs/audit-phase0.md` (round 1) found
 v1.0 infeasible with the real data, and after `docs/g0.md`, `docs/inputs.md`,
 `docs/data-notes.md` and `reports/aia_question_coverage.csv` were produced. **At the time of
 every change below no teacher, student or baseline output existed**: no model had been run,
 no prediction file existed, and no gate had been evaluated. The changes are therefore
-pre-specification amendments (made before any result), not *post hoc* changes. The v1.0 text is archived unchanged in
-`docs/eval-plan-v1.0.md`, and its thresholds are quoted in this list so the difference is auditable.
+pre-specification amendments (made before any result), not *post hoc* changes. The v1.0 text is kept in the author's internal archive
+(`docs/eval-plan-v1.0.md`, not part of this release); its thresholds are quoted in this list so the difference can be checked.
 
 | # | Audit item | v1.0 | v1.1 | Why |
 |---|---|---|---|---|

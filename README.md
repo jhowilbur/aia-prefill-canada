@@ -12,7 +12,7 @@ Author: Jonathas Wilbur Ferreira, Independent Researcher. Technical report: [`re
 |---|---|---|
 | Corpus: 39 published AIAs from 11 departments and agencies (2018-10-05 to 2026-08-14); 32 have machine-readable answers | `data/aia_catalogue.csv`, `docs/data-notes.md` | `data/SOURCES.csv` (URL + SHA-256 for each of the 165 source files) |
 | Score reproduction: the raw score and impact level of **31 of 32** machine-readable AIAs, recomputed with version-aware scoring (11/32 raw and 24/32 level when the current questionnaire is used for every AIA) | `docs/g0.md`, `reports/g0_score_check.csv` | `make verify` (offline, about 1 s) |
-| Questionnaire catalogue: all 295 questions of the official tool (EN/FR, choices, weights), plus the five questionnaire versions behind the published scores | `catalog/` | `make test` |
+| Questionnaire catalogue: all 295 questions of the official tool (EN/FR, choices, weights), plus the five questionnaire versions (four used by published AIAs) | `catalog/` | `make test` |
 | Leakage-free inputs and a leak probe: no single feature of the model input separates impact level I from II above the 0.9 flag | `docs/inputs.md`, `reports/leak_probe.md` | `make reproduce` |
 | Crosswalk: AIA questionnaire ↔ NIST AI RMF 1.0 ↔ OMB M-25-21 | `crosswalk/` | sources and quotes in each row |
 | Pre-specified evaluation protocol: hypotheses, metrics, sample sizes, pass/kill gates, allowed claims | `docs/eval-plan.md`, `docs/lockbox.sha256` | frozen by the author 2026-11-05, before any model output; this release is its first external timestamp |
